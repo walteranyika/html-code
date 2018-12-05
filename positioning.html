@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positioning</title>
+    <style>
+        .outer {
+            border: solid red 2px;
+            display: flex;
+            /*flex-direction: column;*/
+            /*flex-direction: column-reverse;*/
+            justify-content: space-evenly;
+            padding: 15px;
+        }
+
+        .x {
+            border: 1px solid green;
+            padding: 10px;
+            width: 20%;
+        }
+        .blue-border{
+            border-color: #0c0ba5;
+            margin-top: 10px;
+        }
+
+        .kenya{
+            border: 1px solid brown;
+            padding: 8px;
+            width: 18%;
+        }
+
+        .kenya>p{
+            text-align: justify;
+        }
+
+        .big{
+            flex-grow: 4;
+        }
+        .small{
+            flex-grow: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="outer">
+
+    <div class="x big">
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur consequuntur dolorum
+            expedita explicabo fuga inventore mollitia neque, optio provident quibusdam quis quod repudiandae
+            voluptatibus! Blanditiis quas vero vitae!</p>
+    </div>
+    <div class="x small">
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolore eligendi error fugiat, ipsum,
+            labore nihil odit omnis possimus, quod sapiente tempora? Aut consectetur delectus, molestiae quaerat qui
+            tempore voluptatem!</p>
+    </div>
+    <div class="x small">
+        <h2>Heading 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis iure obcaecati possimus temporibus
+            totam! A accusamus, alias aliquam est ex illo in inventore nam pariatur porro quaerat sequi similique
+            unde.</p>
+    </div>
+
+</div>
+
+<div class="outer blue-border">
+    <div class="kenya">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid culpa deserunt dignissimos dolorum et,
+            nihil perferendis provident quis, quod quos recusandae repellendus sequi similique tempora tenetur totam
+            unde veritatis!</p>
+    </div>
+    <div class="kenya">
+        <p>Alias commodi cupiditate delectus eligendi eum facere fugiat illo inventore, itaque maiores modi nemo neque
+            odio odit similique temporibus velit. Accusamus, beatae eius itaque nostrum obcaecati sed soluta! Odit,
+            soluta.</p>
+    </div>
+    <div class="kenya">
+        <p>Adipisci culpa deserunt, eaque mollitia necessitatibus nostrum totam. Accusantium aliquid commodi cum
+            eligendi, hic incidunt iusto labore minima nisi omnis pariatur perspiciatis quae quasi quia suscipit,
+            tempora, velit vitae voluptates!</p>
+    </div>
+    <div class="kenya">
+        <p>Beatae cupiditate dolorem eum laudantium nihil sapiente sit sunt. Architecto at corporis dolor dolores error
+            inventore iure nihil, nulla quia tenetur vitae voluptas? Dicta expedita harum illum odio, totam
+            voluptas!</p>
+    </div>
+    <div class="kenya">
+        <p>Eligendi hic iure nemo nostrum quasi sapiente tempora. Animi dicta error facilis hic ipsam laudantium
+            necessitatibus nobis odit, pariatur qui reprehenderit saepe similique tempora veniam voluptate? Inventore
+            nemo praesentium voluptatum.</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
